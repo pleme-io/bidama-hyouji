@@ -1,0 +1,17 @@
+package("hyouji", "0.1.0", :public)
+needs("gamen", "^0.1.0")
+needs("ibuki", "^0.1.0")
+needs("jisho", "^0.1.0")
+needs("kansuu", "^0.1.0")
+needs("kazu", "^0.1.0")
+needs("kyohi", "^0.1.0")
+needs("moji", "^0.1.0")
+needs("retsu", "^0.1.0")
+legacy_packages(
+  "0.1.0",
+  [
+    ["burauza", "hyouji/burauza"],
+    ["kodou", "hyouji/kodou"],
+    ["ugoki", "hyouji/ugoki"]
+  ]
+)

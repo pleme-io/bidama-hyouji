@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "bluefile_b3": "b3:e042e9a2a86e7d8bfd31b5648d71e01011d88fc3e8cd922be08e59c368927afb",
+  "manifest": {
+    "schema": 1,
+    "name": "bidama-hyouji",
+    "version": "0.1.0",
+    "needs": {},
+    "when": "anytime",
+    "sources": {},
+    "packages": [
+      "bidamas"
+    ],
+    "runs": {},
+    "tools": [],
+    "checks": {},
+    "apps": {},
+    "catalog": null
+  },
+  "sources": {}
+}

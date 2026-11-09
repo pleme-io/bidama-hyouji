@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "bluefile_b3": "b3:aea7a7a71b14cc9a9a798569bc98505e552c24f9ea25d9f09bd6c276c1aa0d0c",
+  "manifest": {
+    "schema": 1,
+    "name": "hyouji",
+    "version": "0.1.0",
+    "needs": {
+      "gamen": "^0.1.0",
+      "ibuki": "^0.1.0",
+      "jisho": "^0.1.0",
+      "kansuu": "^0.1.0",
+      "kazu": "^0.1.0",
+      "kyohi": "^0.1.0",
+      "moji": "^0.1.0",
+      "retsu": "^0.1.0"
+    },
+    "when": "anytime",
+    "sources": {},
+    "packages": [],
+    "runs": {},
+    "tools": [],
+    "checks": {},
+    "apps": {},
+    "catalog": null,
+    "visibility": "public",
+    "legacy_packages": {
+      "burauza": {
+        "since": "0.1.0",
+        "to": "hyouji/burauza"
+      },
+      "kodou": {
+        "since": "0.1.0",
+        "to": "hyouji/kodou"
+      },
+      "ugoki": {
+        "since": "0.1.0",
+        "to": "hyouji/ugoki"
+      }
+    }
+  },
+  "sources": {}
+}
