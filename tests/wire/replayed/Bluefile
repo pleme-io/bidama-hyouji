@@ -1,0 +1,7 @@
+package("wire-replayed", "0.1.0")
+allow([])
+virtualize(:comm_flash, {using: :loopback})
+virtualize(:comm_scavenger, {using: :loopback})
+virtualize(:clock, {using: :deterministic_stepped, at_ms: 0, step_ms: 0})
+virtualize(:filesystem, {using: :null_sink, for: %w[hyouji]})
+virtualize(:entropy, {using: :seeded_prng, seed: "wire", for: %w[shomei]})

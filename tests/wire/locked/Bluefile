@@ -1,0 +1,4 @@
+package("wire-breach", "0.1.0")
+allow(%i[comm_scavenger clock])
+virtualize(:filesystem, {using: :null_sink, for: %w[hyouji]})
+virtualize(:entropy, {using: :seeded_prng, seed: "w", for: %w[shomei]})

@@ -1,3 +1,6 @@
 package("bidama-hyouji", "0.1.0")
 
 packages("bidamas")
+
+check("wire", "tests/wire.b", ["tests"])
+check("heni-mutations", "gen/heni-gate.b", ["bidamas", "heni"])

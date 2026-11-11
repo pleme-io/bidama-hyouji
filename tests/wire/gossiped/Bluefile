@@ -1,0 +1,3 @@
+package("wire-gossip", "0.1.0")
+allow(%i[comm_flash comm_scavenger filesystem clock])
+virtualize(:entropy, {using: :seeded_prng, seed: "wire", for: %w[shomei]})
